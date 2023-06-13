@@ -1,0 +1,84 @@
+/* Стиль шапки с серым фоном и отступами */
+.header {
+  animation: 1s show ease;
+  overflow: hidden;
+  background-color: white;
+  padding: 5px 0px;
+  position: sticky;
+  top: 0;
+  box-shadow: 3px 0 0 3px rgba(29, 27, 27, 0.215);
+  font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+/* Стиль ссылок шапки */
+.header a {
+  background-color: rgba(240, 248, 255, 0.87);
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 2px;
+  font-family: Trattatello, fantasy;
+  
+}
+
+
+/* Стиль ссылки логотипа */
+.header a.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Изменение цвета фона при наведении курсора */
+.header >a:hover {
+  background-color: rgba(89, 175, 209, 0.603);
+  font-size: 35px;
+  color: black;  
+  transition-duration: 0.5s;
+
+}
+.header-right a:hover {
+  background-color: rgba(89, 175, 209, 0.603);
+  font-size: 20px;
+  color: black;
+  transition-duration: 0.7s;
+}
+
+/* Стиль активной/текущей ссылки */
+.header a.active {
+  background-color: rgba(97, 151, 252, 0.808);
+  color: white;
+}
+
+/* Сдвигаем секцию со ссылками вправо */
+.header-right {
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+/* Медиа-запрос для адаптивности – когда ширина
+  экрана 650px или меньше, ссылки будут друг над другом */
+@media screen and (max-width: 650px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.logocol{
+  color: rgb(56, 144, 179);
+}
+
+

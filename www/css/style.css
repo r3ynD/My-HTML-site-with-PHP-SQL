@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: rgba(56, 144, 179, 0.699);
+    /* background: linear-gradient(60deg, #74fbd0c5, #66ffffb6);
+    background-size: 450% 450%;
+    animation: gradient 6s ease-in infinite; */
+}
+/* @keyframes gradient{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+} */
+.imgstyle {
+    margin-right: 2%;
+    float: right;
+    border: 4px solid rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    width: 45%;
+    height: auto;
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.321);
+}
+.imgstyle1{
+    margin-left: 0%;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: left;
+    border: 4px solid rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    width: 45%;
+    height: auto;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.321);
+    
+}
+.textstyle {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #F5F5F5;
+    border: 2px solid rgba(210, 210, 208, 0.262);
+    border-radius: 10px;
+}
+
+/* Красная строка */
+.indent{
+    margin-left: 4%;
+}
+/* shop */
+.prev-text{
+    border-radius: 5px;
+    background-color: #3e9abe52;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+   
+    
+ }
+ .product-item { 
+    display: block;
+    float:left;
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-right:auto;
+    border: 4px outset rgba(58, 58, 58, 0.801);
+    width: 300px;
+    text-align: center;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+
+ }
+ .product-item:hover {
+    border-bottom: 2px solid #008cff;
+ }
+ .product-item img {
+    display: block;
+    width: 100%;
+ }
+ .product-list {
+    background: #fafafa;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+ }
+ .price {
+    font-size: 16px;
+    color: #5ab3fc;
+    display: block;
+    margin-bottom: 12px;
+ }
+ .button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+ }
+ .product-item:hover .button {
+    background: #4091dd;
+ }

@@ -1,0 +1,38 @@
+.mainblock{
+    background-color: rgba(70, 125, 245, 0.296);
+    border: 2px solid rgba(40, 46, 59, 0.64);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: auto
+}
+.backbtn{
+font-size: 15px;
+color: rgb(0, 0, 23);
+
+}
+.backbtn :hover{
+    color: rgba(69, 69, 149, 0.749);
+    background-color: whitesmoke;
+    transition: 0.5s;
+    border: 4px;
+    border-radius: 5px;
+}
+.backbtn1{
+    font-size: 15px;
+    color: black;
+ 
+    border: 4px;
+    border-radius: 5px;
+    float: right;
+}
+
+.backbtn1 :hover{
+    background-color: whitesmoke;
+    color: rgba(69, 69, 149, 0.749);
+    transition: 0.5s;
+    border: 4px;
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,50 @@
+.menu{
+    list-style-type: none;
+    padding-left: 20%;
+    margin-left: 0;
+
+    &_scrolled {
+        position: fixed;
+        animation-name: fadeInUp;
+        animation-duration: 1s;
+    }
+
+
+}
+.menu a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight:600;
+    color: black;
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: whitesmoke;
+    border-bottom: 5px solid gray;
+}
+.menu li {
+    float: left;
+    margin-left: 10px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: rgba(21, 23, 26, 0.411);
+    animation: gradient 6s ease-in infinite;
+    border-bottom: 5px solid white;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        top: -50px;
+
+    }
+    to {
+        opacity: 1;
+        top:0px;
+    }
+}

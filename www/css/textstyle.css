@@ -1,0 +1,12 @@
+.main{
+    animation: 0.5s show linear;
+    background-size: cover;
+    background-color: rgba(245, 245, 245, 0.829);
+    border: 4px outset rgba(58, 58, 58, 0.801);
+    margin-left: 8%;
+    margin-right: 8%;
+}
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
